@@ -27,6 +27,14 @@
     font-size: 16px;
     margin-bottom: 10px;
   }
+  .single-footer-widget .social-link{
+    float: none;
+    margin-top: 20px;
+  }
+
+  .social-link{
+    padding:0;
+  }
   .section-title h2 {
     font-size: 28px;
   }
@@ -50,7 +58,6 @@
   }
   .main-banner-content .sub-title {
     margin-bottom: 13px;
-    letter-spacing: 5px;
     font-size: 18px;
   }
   .main-banner-content .logo {
@@ -90,7 +97,6 @@
     padding: 25px;
   }
   .single-popular-leagues-box .popular-leagues-box .popular-leagues-content .content h3 {
-    letter-spacing: 1px;
     margin-bottom: 8px;
     font-size: 22px;
   }

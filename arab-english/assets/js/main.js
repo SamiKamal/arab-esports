@@ -6,6 +6,20 @@
 		$(".others-option-for-responsive .container .container").toggleClass("active");
 	});
 
+	$(window).scroll(function() {
+		if($(window).scrollTop() + $(window).height() == $(document).height()) {
+			$('.rawa').css('opacity', '0')
+			$('.rawa').css('margin-bottom', '60px')
+			$('.rawa').css('z-index', '-1')
+
+		} else {
+			$('.rawa').css('z-index', '99999999')
+			$('.rawa').css('opacity', '1')
+			$('.rawa').css('margin-bottom', '0')
+
+		}
+	 });
+
 	// Mean Menu
 	$('.mean-menu').meanmenu({
 		meanScreenWidth: "1199"

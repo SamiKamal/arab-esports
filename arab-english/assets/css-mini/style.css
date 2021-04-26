@@ -746,7 +746,7 @@ p:last-child {
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
-  margin-top: 20px;
+  float: right;
 }
 
 .single-footer-widget .social-link li {
@@ -839,4 +839,34 @@ p:last-child {
   transform: translate(-50%, -50%);
   top: 50%;
 
+}
+
+.lang-switcher{
+  position: absolute;
+  z-index: 9999999;
+  top: 80px;
+  right: 50px;
+  color: var(--blackColor);
+}
+
+.rawa{
+  max-width: 60%;
+  width: 60%;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  padding: 5px 10px;
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  cursor: pointer;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  z-index: 999999999;
+}
+
+.rawa:hover{
+  color: var(--blackColor);
 }

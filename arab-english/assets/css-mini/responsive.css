@@ -27,6 +27,15 @@
     font-size: 16px;
     margin-bottom: 10px;
   }
+  .single-footer-widget .social-link{
+    float: none;
+    margin-top: 20px;
+  }
+
+  .social-link{
+    padding:0;
+  }
+
   .section-title h2 {
     font-size: 28px;
   }
