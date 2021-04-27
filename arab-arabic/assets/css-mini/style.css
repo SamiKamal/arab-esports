@@ -95,7 +95,7 @@ p:last-child {
   -webkit-transition: none;
   transition: none;
   Pointer-events: none;
-  z-index: 9999999999;
+  z-index: 9999999999999999999999999999999999;
 }
 
 .arab-cursor2 {
@@ -110,7 +110,7 @@ p:last-child {
   -webkit-transition: none;
   transition: none;
   Pointer-events: none;
-  z-index: 9999999999;
+  z-index: 9999999999999999999999999999999999;
 }
 
 .default-btn {
