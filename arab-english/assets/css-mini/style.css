@@ -773,8 +773,6 @@ Page Title Area CSS
   line-height: 1;
   position: relative;
   display: inline-block;
-  -webkit-animation: glitch 1s linear infinite;
-          animation: glitch 1s linear infinite;
   overflow: hidden;
   font-size: 130px;
   font-weight: 700;
