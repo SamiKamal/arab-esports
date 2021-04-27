@@ -6,6 +6,270 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .particles-js-canvas-el{
+    display: none;
+  }
+
+  .pt-100 {
+    padding-top: 60px;
+  }
+  .pb-70 {
+    padding-bottom: 30px;
+  }
+  .default-btn {
+    padding: 13px 25px 7px 25px;
+    font-size: 16px;
+  }
+  .section-title {
+    max-width: 100%;
+    margin-bottom: 35px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -5px;
+  }
+  .section-title .sub-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .section-title h2 {
+    font-size: 28px;
+  }
+  .container {
+    max-width: 100%;
+  }
+  p {
+    font-size: 14px;
+  }
+  .main-banner {
+    padding-top: 185px;
+    padding-bottom: 60px;
+  }
+  .main-banner::before {
+    display: none;
+  }
+  .main-banner-content {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .main-banner-content .sub-title {
+    margin-bottom: 13px;
+    letter-spacing: 5px;
+    font-size: 18px;
+  }
+  .main-banner-content .logo {
+    margin-bottom: 20px;
+  }
+  .main-banner-content h6 {
+    font-size: 18px;
+  }
+  .main-banner-content .btn-box {
+    margin-top: 30px;
+  }
+  .main-banner-content .btn-box .default-btn {
+    margin-right: 8px;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-image .image {
+    width: auto;
+    height: auto;
+    background-image: unset !important;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-image .image img {
+    display: inline-block;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-content .content {
+    padding: 25px;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-content .content h3 {
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+  .single-live-stream-item .content {
+    padding: 20px;
+  }
+  .single-live-stream-item .content h3 {
+    margin-bottom: 5px;
+    font-size: 22px;
+  }
+  .single-live-stream-item .content .meta li {
+    font-size: 15px;
+  }
+  .single-live-stream-item .video-btn {
+    right: 20px;
+    top: 20px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 23px;
+  }
+  .faq-accordion-tab .tabs {
+    margin-bottom: 40px;
+    margin-top: -15px;
+  }
+  .faq-accordion-tab .tabs li {
+    margin-top: 15px;
+  }
+  .faq-accordion-tab .tabs li a {
+    padding: 12px 10px 10px;
+    letter-spacing: .5px;
+    font-size: 14px;
+  }
+  .faq-accordion .accordion .accordion-title {
+    padding: 15px 15px 10px 40px;
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+  .faq-accordion .accordion .accordion-title i {
+    left: 10px;
+    top: 12px;
+    font-size: 25px;
+  }
+  .faq-accordion .accordion .accordion-content {
+    margin-top: 0;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 40px;
+  }
+  .page-title-area {
+    padding-top: 150px;
+    padding-bottom: 55px;
+  }
+  .page-title-content h1 {
+    font-size: 40px;
+  }
+  .page-title-content h1::before, .page-title-content h1::after {
+    display: none;
+  }
+  .page-title-content img {
+    margin-bottom: 25px;
+  }
+  .player-details-desc .sub-title {
+    font-size: 15px;
+  }
+  .player-details-desc h3 {
+    font-size: 25px;
+  }
+  .player-details-desc .streams-list {
+    margin-top: 35px;
+  }
+  .copyright-area {
+    text-align: center;
+  }
+  .copyright-area .lang-switcher {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .copyright-area .lang-switcher select {
+    width: 100%;
+  }
+  .copyright-area .lang-switcher::before {
+    display: none;
+  }
+  .single-footer-widget h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  .copyright-area {
+    text-align: left;
+  }
+  .copyright-area .lang-switcher {
+    text-align: right;
+    margin-top: 0;
+  }
+  .copyright-area .lang-switcher span {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ptb-100 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .pt-100 {
+    padding-top: 90px;
+  }
+  .pb-70 {
+    padding-bottom: 60px;
+  }
+  .container {
+    max-width: 720px;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-image .image {
+    background-image: unset !important;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-image .image img {
+    display: inline-block;
+    width: 100%;
+  }
+  .single-popular-leagues-box .popular-leagues-box .popular-leagues-content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 65%;
+            flex: 0 0 65%;
+    max-width: 65%;
+  }
+  .page-title-area {
+    padding-top: 170px;
+    padding-bottom: 70px;
+  }
+  .page-title-content h1 {
+    font-size: 90px;
+  }
+  .faq-accordion-tab .tabs {
+    margin-bottom: 30px;
+  }
+  .faq-accordion-tab .tabs li {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1355px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  .ptb-100 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .pt-100 {
     padding-top: 60px;
   }
@@ -103,17 +367,6 @@
     margin-bottom: 8px;
     font-size: 22px;
   }
-  .subscribe-inner {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  .subscribe-inner .sub-title {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  .subscribe-inner h2 {
-    font-size: 28px;
-  }
   .single-live-stream-item .content {
     padding: 20px;
   }
@@ -157,14 +410,6 @@
   .single-footer-widget h3 {
     font-size: 22px;
     margin-bottom: 20px;
-  }
-  .go-top {
-    width: 34px;
-    height: 36px;
-    font-size: 25px;
-  }
-  .particles-js-canvas-el{
-    display: none;
   }
 }
 
