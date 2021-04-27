@@ -53,7 +53,6 @@
   }
   .main-banner-content .sub-title {
     margin-bottom: 13px;
-    letter-spacing: 5px;
     font-size: 18px;
   }
   .main-banner-content .logo {
@@ -93,7 +92,6 @@
     padding: 25px;
   }
   .single-popular-leagues-box .popular-leagues-box .popular-leagues-content .content h3 {
-    letter-spacing: 1px;
     margin-bottom: 8px;
     font-size: 22px;
   }
@@ -124,12 +122,10 @@
   }
   .faq-accordion-tab .tabs li a {
     padding: 12px 10px 10px;
-    letter-spacing: .5px;
     font-size: 14px;
   }
   .faq-accordion .accordion .accordion-title {
     padding: 15px 15px 10px 40px;
-    letter-spacing: 1px;
     font-size: 16px;
   }
   .faq-accordion .accordion .accordion-title i {
@@ -322,7 +318,6 @@
   }
   .main-banner-content .sub-title {
     margin-bottom: 13px;
-    letter-spacing: 5px;
     font-size: 18px;
   }
   .main-banner-content .logo {
@@ -362,7 +357,6 @@
     padding: 25px;
   }
   .single-popular-leagues-box .popular-leagues-box .popular-leagues-content .content h3 {
-    letter-spacing: 1px;
     margin-bottom: 8px;
     font-size: 22px;
   }
