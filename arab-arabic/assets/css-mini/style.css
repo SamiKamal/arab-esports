@@ -869,6 +869,7 @@ FAQ Area CSS
 }
 
 .faq-accordion-tab .tabs li {
+  display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -892,7 +893,7 @@ FAQ Area CSS
 
 .faq-accordion-tab .tabs li a span {
   display: block;
-  margin-top: 8px;
+
 }
 
 .faq-accordion-tab .tabs li a:hover {
@@ -1944,7 +1945,7 @@ p:last-child {
   background-position: 50% 50%;
   position: relative;
   overflow: hidden;
-  max-height: 80vh;
+  max-height: 75vh;
   min-height: 500px;
   padding-bottom: 100px;
 
@@ -1986,4 +1987,13 @@ p:last-child {
 
 .rawa:hover{
   color: var(--blackColor);
+}
+.page-title-area.page-title-bg1{
+  padding-bottom: 0;
+}
+.current a{
+  background-color: var(--mainColor) !important;
+}
+.mt-45{
+  margin-top: 45px;
 }
