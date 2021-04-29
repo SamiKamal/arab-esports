@@ -1945,7 +1945,7 @@ p:last-child {
   background-position: 50% 50%;
   position: relative;
   overflow: hidden;
-  max-height: 75vh;
+  max-height: 60vh;
   min-height: 500px;
   padding-bottom: 100px;
 
